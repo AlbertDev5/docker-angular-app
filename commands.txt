@@ -4,3 +4,4 @@ docker create                                                                   
 docker start -a <docker_id>                                                                                             inicia una imagen apafrtir de su docker id, -a muestra logs (opcional)
 docker run                                                                                                              los dos anteriores en uno solo
 docker exec -it <docker_id> sh                                                                                          accede a la consola de una imagen
+docker run .                                                                                                            ejecuta el Dockerfile en el directorio ejecutado
