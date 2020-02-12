@@ -1,0 +1,6 @@
+docker ps -a                                                                                                            muestra todos los procesos
+docker ps                                                                                                               muestra los procesos activos
+docker create                                                                                                           genera in docker id y crea una imagen
+docker start -a <docker_id>                                                                                             inicia una imagen apafrtir de su docker id, -a muestra logs (opcional)
+docker run                                                                                                              los dos anteriores en uno solo
+docker exec -it <docker_id> sh                                                                                          accede a la consola de una imagen
