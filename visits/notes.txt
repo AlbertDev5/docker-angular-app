@@ -1,0 +1,4 @@
+docker compose: iniciar varias imagenes al mismo tiempo (ubicados en el directorio de docker-compose)
+    > docker-compose up
+docker compose: detener los contenedores (ubicados en el directorio de docker-compose)
+    > docker-compose down
