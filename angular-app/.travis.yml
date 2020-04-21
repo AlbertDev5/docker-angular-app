@@ -1,0 +1,10 @@
+sudo: required
+services:
+  - docker
+language: generic
+
+before_install:
+  - docker build -t app1/docker-angular -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true app1/docker-angular ng test
